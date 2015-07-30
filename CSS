@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	padding:0;
+	margin:0;
+}
+header {
+	background:#22293b;
+	position:fixed;
+	min-height:30px;
+	width:100%;
+}
+nav {
+	/* width of nav same as Absolute-Center */
+	width:50%;
+	margin: 0 auto;
+	min-height:30px;
+	color:white;
+	padding-top:15px;
+	padding-left:15px;
+	color:white;
+}
+nav span {
+	font-size:2em;
+	line-height:1em;
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active{
+	text-decoration:none;
+	color:white;
+}
+main {
+	background:#e4ddb3;
+	min-width:960px;
+	min-height:600px;
+	padding:10px;
+}
+.Center-Container {
+  position: relative;
+}
+
+.Absolute-Center {
+	width: 496px;
+	height: 324px;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 117px;
+	left: 30px;
+	bottom: 0;
+	right: 0;
+}
+.effect1{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+.Float-Right {
+	float:right;
+}
+menu {
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+nav img {
+	float:left;
+}
+
+form 1 {
+	float:right;
+	right: 20px;
+	top: 30px;
+}
+
+form 2 {
+	position: absolute;
+	left: 100px;	
+}
+
+h1 {font-style:normal;
+font-family:Cambria;
+padding-left: 30px;}
+
+p {
+	position: ;
+	font-size: 24px;
+	font-family: Cambria;
+	
+}
+#divleft{
+	width: 400px;
+	float:left;
+	border: 1px solid red;
+	margin-left: 100px;
+}
+#divright{
+	width: 400px;
+	float:left;
+	border: 1px solid red;
+	margin-top: 250px;
+}
